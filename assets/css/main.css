@@ -4,7 +4,7 @@
 
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+iframe, h1, h5, h6, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -18,13 +18,9 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font-color: #808080;
 	font: inherit;
 	vertical-align: baseline;}
 
-aboutMe{
-
-}
 
 
 article, aside, details, figcaption, figure,
@@ -1366,23 +1362,44 @@ input, select, textarea {
 
 		}
 
-	strong, b, h1, h2, h3, h4, h5, h6 {
+	strong, b, h1, h5, h6 {
 		font-weight: 400;
 		color: #363636;
 	}
 
 	h1 {
-		font-size: 2.4em;
+		font-size: 240%;
 		letter-spacing: -0.015em;
+		margin-top: 50px;
 	}
 
 	h2 {
-		font-size: 1.8em;
+		color: #363636;
+		font-weight: 400;
+		font-size: 130%;
 		letter-spacing: -0.015em;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		vertical-align: baseline;
 	}
 
-	h3, h4, h5, h6 {
-		font-size: 1.25em;
+	h3 {
+		font-size: 110%;
+		font-weight: 400;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		vertical-align: baseline;
+	}
+
+	h4 {
+		font-style: italic;
+		color: #808080
+	}
+
+	h5, h6{
+		font-size: 125%;
 		letter-spacing: -0.015em;
 	}
 
@@ -1393,11 +1410,11 @@ input, select, textarea {
 		}
 
 		h2 {
-			font-size: 1.375em;
+			font-size: 137.5%;
 		}
 
-		h3, h4, h5, h6 {
-			font-size: 1em;
+		h4, h5, h6 {
+			font-size: 100%;
 		}
 
 	}
@@ -1434,9 +1451,18 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+m
+	ul, ol, dl, table, blockquote, form {
+		margin-bottom: 200%;
+	}
 
-	p, ul, ol, dl, table, blockquote, form {
-		margin-bottom: 2em;
+	p {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+		color: #000000;
 	}
 
 /* Table */
