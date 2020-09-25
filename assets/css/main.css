@@ -1592,6 +1592,11 @@ m
 			display: block;
 		}
 
+		.image.tabIcon link{
+			width: 100%;
+			height: 100%;
+		}
+
 		.image.fit {
 			display: block;
 			border: 2px solid black;
