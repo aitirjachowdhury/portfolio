@@ -1593,8 +1593,13 @@ m
 		}
 
 		.image.fit {
+			display: block;
 			border: 2px solid black;
 			margin: 0 2em 0 0;
+			width: 100%;
+		}
+
+		.image.fit img {
 			width: 100%;
 		}
 
@@ -1602,6 +1607,14 @@ m
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+		}
+
+		.image.left, .image.right {
+			max-width: 100%;
+		}
+
+		.image.left img, .image.right img {
+			width: 100%;
 		}
 
 		.image.left {
@@ -1619,9 +1632,9 @@ m
 			margin: 0 0 0 0;
 		}
 
-			.image.centered img {
-				margin: 0 auto;
-			}
+		.image.centered img {
+			margin: 0 auto;
+		}
 
 /* Button */
 
