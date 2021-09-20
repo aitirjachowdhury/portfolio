@@ -1599,7 +1599,6 @@ m
 
 		.image.fit {
 			display: block;
-			border: 2px solid black;
 			margin: 0 2em 0 0;
 			width: 100%;
 		}
@@ -1637,9 +1636,9 @@ m
 			margin: 0 0 0 0;
 		}
 
-		.image.centered img {
+		/*.image.centered img {
 			margin: 0 auto;
-		}
+		}*/
 
 /* Button */
 
@@ -2204,7 +2203,7 @@ m
 /* Footer */
 
 	#footer {
-		color: rgba(255, 255, 255, 0.45);
+		color: white;
 		text-align: center;
 		padding: 2em 0 0 0;
 		font-size: 75%;

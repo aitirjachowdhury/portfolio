@@ -1,0 +1,42 @@
+/* General */ 
+body{
+     
+}
+
+/* Folder Tabs */
+.tab-line{
+  margin: 200px;
+}
+.tab-line ul{
+  margin: 50px 200px;
+  border-bottom: 2px solid black;
+  max-width: 850px;
+  padding: 0px 10px;
+}
+li{
+  background-color: white;
+  margin: 20px;
+  padding: 25px 40px;
+  border-radius: 5px;
+  list-style: none;
+  transition: all ease-in-out 400ms;
+}
+
+ul, li {
+  float: left;
+  font-size: 24px;
+}
+
+li:hover{
+  background-Color: #ffa895;
+}
+
+/* Main - Index */
+.main{
+  background-color: rgb(245, 154, 118);
+  max-width: 1060px;
+  max-height: 1060px;
+  text-align: center;
+  margin: 200px;
+  padding: 100px;
+}
