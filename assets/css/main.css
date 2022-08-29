@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
 
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, section {
 	display: block;}
 
 body {
@@ -1835,20 +1835,21 @@ m
 	#nav {
 		text-align: center;
 		height: 4.25em;
+		width: 100%;
 		cursor: default;
 	}
 
 		#nav a {
 			position: relative;
+			text-decoration: none;
 			display: inline-block;
 			color: #ffffff;
-			width: 1em;
-			height: 1em;
-			line-height: 0.9em;
-			font-size: 2.5em;
+			width: 5em;
+			height: 3.55em;
+			line-height: 5em;
+			font-size: 35px;
 			margin: 0 0.25em 0 0.25em;
-			opacity: 0.35;
-			outline: 0;
+			outline: 1px;
 			-moz-transition: opacity .25s ease-in-out;
 			-webkit-transition: opacity .25s ease-in-out;
 			-ms-transition: opacity .25s ease-in-out;
@@ -1911,7 +1912,8 @@ m
 				}
 
 			#nav a:hover {
-				opacity: 1.0;
+				color: #570861;
+				transition: .45s ease-in-out;
 			}
 
 				#nav a:hover span {
@@ -1919,7 +1921,8 @@ m
 				}
 
 			#nav a.active {
-				opacity: 1.0;
+				color: #570861;
+				font-weight: bold;
 			}
 
 				#nav a.active:after {
@@ -1931,6 +1934,33 @@ m
 			#nav a span {
 				display: none;
 			}
+			#nav a.active {
+				color: #570861;
+				font-weight: bold;
+			}
+			#nav {
+				text-align: center;
+				height: 2.25em;
+				width: 100%;
+				cursor: default;
+			}
+
+				#nav a {
+					position: relative;
+					text-decoration: none;
+					display: inline-block;
+					color: #ffffff;
+					width: 5em;
+					height: 2em;
+					line-height: 0em;
+					font-size: 25px;
+					margin: 0 0.25em 0 0.25em;
+					outline: 1px;
+					-moz-transition: opacity .25s ease-in-out;
+					-webkit-transition: opacity .25s ease-in-out;
+					-ms-transition: opacity .25s ease-in-out;
+					transition: opacity .25s ease-in-out;
+				}
 
 		}
 
@@ -2208,13 +2238,18 @@ m
 	#footer {
 		color: white;
 		text-align: center;
-		padding: 2em 0 0 0;
-		font-size: 75%;
+		font-size: 100%;
+	}
+
+	#footer #nav{
+		margin: 0 0 2em 0;
 	}
 
 		#footer a {
-			color: #ddd;
 			color: rgba(255, 255, 255, 0.65);
+			font-size: 2em;
+			width:1em;
+			height: 0.5em;
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
 			-ms-transition: color .25s ease-in-out;
@@ -2250,5 +2285,26 @@ m
 				padding-left: 50%;
 				margin-left: 50%;
 			}
+
+				#footer {
+					color: white;
+					text-align: center;
+					font-size: 100%;
+				}
+
+				#footer #nav{
+					margin: 2em 0 0 0;
+				}
+
+					#footer a {
+						color: rgba(255, 255, 255, 0.65);
+						font-size: 2em;
+						width:1em;
+						height: 1.5em;
+						-moz-transition: color .25s ease-in-out;
+						-webkit-transition: color .25s ease-in-out;
+						-ms-transition: color .25s ease-in-out;
+						transition: color .25s ease-in-out;
+					}
 
 		}
