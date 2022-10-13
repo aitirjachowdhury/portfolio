@@ -1844,11 +1844,10 @@ m
 			text-decoration: none;
 			display: inline-block;
 			color: #ffffff;
-			width: 5em;
-			height: 3.55em;
-			line-height: 5em;
-			font-size: 35px;
-			margin: 0 0.25em 0 0.25em;
+			width: 2em;
+			height: 5em;
+			line-height: 2em;
+			font-size: 50px;
 			outline: 1px;
 			-moz-transition: opacity .25s ease-in-out;
 			-webkit-transition: opacity .25s ease-in-out;
